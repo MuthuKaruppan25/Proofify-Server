@@ -18,7 +18,7 @@ app.use(cors({
 }));
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/bot-detection', {
+mongoose.connect('mongodb+srv://Gowtham:gowtham@bill.fx5nzqb.mongodb.net/?retryWrites=true&w=majority&appName=bill', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
